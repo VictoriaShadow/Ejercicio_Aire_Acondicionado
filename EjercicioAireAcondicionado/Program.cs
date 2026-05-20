@@ -1,4 +1,4 @@
-using Ejercicio_Aire_Acondicionado;
+﻿using Ejercicio_Aire_Acondicionado;
 Console.WriteLine("========================================");
 Console.WriteLine("   INGRESO DE DATOS - NUEVO EQUIPO");
 Console.WriteLine("========================================");
@@ -17,7 +17,7 @@ else
 {
     split = false;
 }
-Console.Write("Ingrese país de origen del dispositivo");
+Console.Write("Ingrese el País de fabricación: ");
 string pais = Console.ReadLine();
 Console.WriteLine("¿Es un equipo de Frío Solo? (S/N - 'N' significa Frío/Calor)");
 string respuestaFrio = Console.ReadLine();
